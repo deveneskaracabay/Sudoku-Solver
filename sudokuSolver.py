@@ -1,92 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-import sys
 from qt5_file.ui import Ui_MainWindow
-import time
-
-class Sudoku():
-    def __init__(self,matrix):
-        self.matrix =  matrix
-        if self.control() : 
-            self.flag = self.solve()
-        else:
-            self.flag = False
-
-    def control(self):
-        for row in self.matrix:
-            for i in row:
-                if i<0 or i>9:
-                    return False
-
-        for row in self.matrix:
-            for i in row:
-                if i == 0:
-                    continue
-                if row.count(i) > 1 :
-                    return False
-
-        for i in range(9):
-            temp = []
-            for j in range(9):
-                temp.append(self.matrix[j][i])
-            for i in temp:
-                if i == 0:
-                    continue
-                if temp.count(i)>1:
-                    return False
-                
-        for x0 in [0,3,6]:
-            for y0 in [0,3,6]:
-
-                temp = []
-                for x in range(3):
-                    for y in range(3):
-                        temp.append(self.matrix[x+x0][y+y0])
-
-                for j in temp:
-                    if j == 0:
-                        continue
-                    if temp.count(j)>1:
-                        return False
-
-        return True
-            
-
-    def possible( self, row, col, num):
-        for i in range(9):
-            if self.matrix[row][i] == num:
-                return False
-            
-        for i in range(9):
-            if self.matrix[i][col] == num:
-                return False
-            
-        row0=(row//3)*3
-        col0=(col//3)*3
-        for i in range(3):
-            for j in range(3):
-                if self.matrix[row0+i][col0+j] == num :
-                    return False
-        return True
-
-    def solve(self, row=0, col=0):
-        if (row == 8) and (col == 9):
-            return True
-        
-        if col==9:
-            row += 1
-            col  = 0
-            
-        if (self.matrix[row][col] > 0):
-            return self.solve(row,col+1)
-        
-        for num in range(1,10):
-            if self.possible(row, col, num):
-                self.matrix[row][col] = num
-                if self.solve(row, col+1):
-                    return True
-                self.matrix[row][col] = 0
-
-        return False
+from solutionClass.sudokuClass import Sudoku
+import sys
 
 def error():    
     QtWidgets.QMessageBox.about(Qmain,"Error","Please enter valid numbers")
@@ -421,15 +336,7 @@ def getitem():
 
     solution_func(matrix)
 
-def solution_func(matrix):
-    solution = Sudoku(matrix)
-    if solution.flag:
-        return printSolution(solution)
-    else:
-        error()
-        
-
-def printSolution(solution):
+def additem(solution):
     ui.lineEdit_1.setText (str(solution.matrix[0][0]))
     ui.lineEdit_2.setText (str(solution.matrix[0][1]))
     ui.lineEdit_3.setText (str(solution.matrix[0][2]))
@@ -512,7 +419,13 @@ def printSolution(solution):
     ui.lineEdit_80.setText(str(solution.matrix[8][7]))
     ui.lineEdit_81.setText(str(solution.matrix[8][8]))
 
-
+def solution_func(matrix):
+    solution = Sudoku(matrix)
+    if solution.flag:
+        return additem(solution)
+    else:
+        error()
+        
 def reset():
 
     ui.lineEdit_1.setText ("")
@@ -602,13 +515,7 @@ app = QtWidgets.QApplication(sys.argv)
 Qmain = QtWidgets.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(Qmain)
-msg = QtWidgets.QMessageBox()
-
-
-
-
 Qmain.show()
-
 
 ui.Button.clicked.connect(getitem)
 ui.Button_2.clicked.connect(reset)
