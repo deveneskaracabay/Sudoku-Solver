@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'son.ui'
+# Form implementation generated from reading ui file 'main.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -1129,6 +1129,18 @@ class Ui_MainWindow(object):
         font.setItalic(True)
         self.label.setFont(font)
         self.label.setObjectName("label")
+        self.Button_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Button_2.setGeometry(QtCore.QRect(420, 540, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily("Z003")
+        font.setPointSize(13)
+        font.setBold(False)
+        font.setItalic(True)
+        font.setWeight(50)
+        self.Button_2.setFont(font)
+        self.Button_2.setMouseTracking(False)
+        self.Button_2.setStyleSheet("background-color:#E25822;")
+        self.Button_2.setObjectName("Button_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -1217,6 +1229,7 @@ class Ui_MainWindow(object):
         self.lineEdit_81.setStyleSheet(_translate("MainWindow", "background-color:#8FBC8B;"))
         self.Button.setText(_translate("MainWindow", "SOLVE !"))
         self.label.setText(_translate("MainWindow", "Created by Enes Karacabay"))
+        self.Button_2.setText(_translate("MainWindow", "RESET"))
 
 
 if __name__ == "__main__":
