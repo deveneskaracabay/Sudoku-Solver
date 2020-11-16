@@ -15,7 +15,7 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 Bu programı çalıştırabilmek için **Pyqt5** paketine ihtiyacımız var. Bu pakete komut satırınıza
 <br/>
 ``pip install PyQt5`` yazarak sahip olabilirsiniz.
-<br/>
+<br/><br/>
 Ya da bu klasoru bilgisayarınıza indirip komut satırını bu klasorde açıp
 <br/>
 ``pip install - r requirements.txt``
