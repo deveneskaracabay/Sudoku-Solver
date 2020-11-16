@@ -13,4 +13,4 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 
 ## Programdan Görüntüler
 Programı açtığımızda bizi böyle bir görüntü bekliyor olacak: <br/>
-[1.png](./Images/1.png)
+[1.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/1.png)
