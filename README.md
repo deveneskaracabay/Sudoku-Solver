@@ -14,14 +14,11 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 ## Gereklilikler
 Bu programı çalıştırabilmek için **Pyqt5** paketine ihtiyacımız var. Bu pakete komut satırınıza
 <br/>
-``pip install PyQt5``
-<br/>
-yazarak sahip olabilirsiniz.
+``pip install PyQt5`` yazarak sahip olabilirsiniz.
 <br/>
 Ya da bu klasoru bilgisayarınıza indirip komut satırını bu klasorde açıp
 <br/>
 ``pip install - r requirements.txt``
-<br/>
 yazarak da bu pakete sahip olabilirsiniz.
 <br/>
 <br/>
@@ -31,7 +28,7 @@ Programı açtığımızda bizi böyle bir görüntü bekliyor olacak:
 <br/><br/>
 ![1.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/1.png)
 <br/><br/>
-Eğer biz direkt **SOLVE!** butonuna tıklarsak bizim matrix değerlerimizin hepsini 0 olarak algılayıp sudokuyu çözecektir.
+Eğer biz direkt **SOLVE!** butonuna tıklarsak bizim matrix <br/> değerlerimizin hepsini 0 olarak algılayıp sudokuyu çözecektir.
 <br/><br/>
 ![2.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/2.png)
 <br/><br/>
@@ -39,12 +36,12 @@ Bunun yanında gerçek bir sudokunun çözümünü gösterelim:
 <br/><br/>
 ![3.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/3.png)
 <br/><br/><br/>
-Bu sudoku değerlerini girip **SOLVE!** butonuna tıkladığımızda bize cevabı oluşturup ekranda verecektir:
+Bu sudoku değerlerini girip **SOLVE!** butonuna tıkladığımızda <br/> bize cevabı oluşturup ekranda verecektir:
 <br/><br/>
 ![4.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/4.png)
 <br/><br/><br/>
 Peki **RESET** butonu ne işe yarıyor :<br/> 
-**RESET** butonu da isminden anlayacağınız üzere ekranda yazan tüm değerleri silip programın ilk açıldığı andaki görüntüsünü almasını sağlıyor.
+**RESET** butonu da isminden anlayacağınız üzere ekranda yazan <br/> tüm değerleri silip programın ilk açıldığı andaki görüntüsünü almasını sağlıyor.
 <br/><br/>
 ![1.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/1.png)
 <br/><br/><br/>
