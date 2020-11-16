@@ -14,12 +14,12 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 ## Gereklilikler
 Bu programı çalıştırabilmek için **Pyqt5** paketine ihtiyacımız var. Bu pakete komut satırınıza
 <br/>
-'pip install PyQt5'
+``pip install PyQt5``
 <br/>
 yazarak sahip olabilirsiniz.
 Ya da bu klasoru bilgisayarınıza indirip komut satırını bu klasorde açıp
 <br/>
-'pip install - r requirements.txt'
+``pip install - r requirements.txt``
 <br/>
 yazarak da bu pakete sahip olabilirsiniz.
 <br/>
