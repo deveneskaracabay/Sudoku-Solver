@@ -34,7 +34,7 @@ Programı açtığımızda bizi böyle bir görüntü bekliyor olacak:
 Eğer biz direkt **SOLVE!** butonuna tıklarsak bizim matrix değerlerimizin hepsini 0 olarak algılayıp sudokuyu çözecektir.
 <br/><br/>
 ![2.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/2.png)
-<br/><br/><br/>
+<br/><br/>
 Bunun yanında gerçek bir sudokunun çözümünü gösterelim:
 <br/><br/>
 ![3.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/3.png)
@@ -55,7 +55,7 @@ Peki **RESET** butonu ne işe yarıyor :<br/>
 Bu ekrandayken **SOLVE!** tuşuna basalım : 
 <br/><br/>
 ![6.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/6.png)
-<br/><br/> <br/>
+<br/><br/>
 Göründüğü üzere bizim geçersiz değerler girdiğimizi söyleyecektir.
 <br/><br/>
 #### Programın bir üst versiyonuna [buradan](https://github.com/deveneskaracabay/Sudoku-Solver-With-Images) ulaşabilirsiniz.
