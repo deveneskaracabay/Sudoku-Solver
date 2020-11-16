@@ -17,6 +17,7 @@ Bu programı çalıştırabilmek için **Pyqt5** paketine ihtiyacımız var. Bu 
 ``pip install PyQt5``
 <br/>
 yazarak sahip olabilirsiniz.
+<br/>
 Ya da bu klasoru bilgisayarınıza indirip komut satırını bu klasorde açıp
 <br/>
 ``pip install - r requirements.txt``
