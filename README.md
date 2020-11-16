@@ -12,22 +12,33 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 4. Çözümünü yapıp tekrar ekrana verelim.
 
 ## Programdan Görüntüler
-##### Programı açtığımızda bizi böyle bir görüntü bekliyor olacak: <br/><br/>
+Programı açtığımızda bizi böyle bir görüntü bekliyor olacak: 
+<br/>
 ![1.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/1.png)
 <br/><br/>
-##### Eğer biz direkt **SOLVE!** butonuna tıklarsak bizim matrix değerlerimizin hepsini 0 olarak algılayıp sudokuyu çözecektir.
-<br/><br/>
+Eğer biz direkt **SOLVE!** butonuna tıklarsak bizim matrix değerlerimizin hepsini 0 olarak algılayıp sudokuyu çözecektir.
+<br/>
 ![2.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/2.png)
 <br/><br/>
-##### Bunun yanında gerçek bir sudokunun çözümünü gösterelim:
-<br/><br/>
+Bunun yanında gerçek bir sudokunun çözümünü gösterelim:
+<br/>
 ![3.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/3.png)
 <br/><br/>
 Bu sudoku değerlerini girip **SOLVE!** butonuna tıkladığımızda bize cevabı oluşturup ekranda verecektir:
-<br/><br/>
+<br/>
 ![4.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/4.png)
 <br/><br/>
-##### Peki **RESET** butonu ne işe yarıyor :<br/> 
+Peki **RESET** butonu ne işe yarıyor :<br/> 
 **RESET** butonu da isminden anlayacağınız üzere ekranda yazan tüm değerleri silip programın ilk açıldığı andaki görüntüsünü almasını sağlıyor.
+<br/>
+![1.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/1.png)
 <br/><br/>
-##### Şimdi ise
+Şimdi ise hatalı bir değer yani sonucu olmayan bir sudoku girelim : 
+<br/>
+![5.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/5.png)
+<br/> 
+Bu ekrandayken **SOLVE!** tuşuna basalım : 
+<br/>
+![6.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/6.png)
+<br/><br/> 
+Göründüğü üzere bizim geçersiz değerler girdiğimizi söyleyecektir.
