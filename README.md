@@ -26,3 +26,6 @@ Bunun yanında gerçek bir sudokunun çözümünü gösterelim:
 Bu sudoku değerlerini girip **SOLVE!** butonuna tıkladığımızda bize cevabı oluşturup ekranda verecektir:
 <br/><br/>
 ![4.png](https://github.com/deveneskaracabay/SudokuSolver/blob/master/Images/4.png)
+<br/><br/>
+###Peki **RESET** butonu ne işe yarıyor :<br/> **RESET** butonu da isminden anlayacağınız üzere ekranda yazan tüm değerleri silip programın ilk açıldığı andaki görüntüsünü almasını sağlıyor.
+<br/><br/>
