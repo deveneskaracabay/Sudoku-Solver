@@ -4,7 +4,7 @@
 
 Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 
-## Kısaca Algoritma
+## Özet
 
 1. Kullanıcıdan alınan değerlerin int dir değer olup olmadığını kontrol edelim.
 2. Bu değerleri alıp matrix oluşturalım. 
