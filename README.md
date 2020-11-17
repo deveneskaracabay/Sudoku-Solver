@@ -11,7 +11,7 @@ Kullanıcının girdiği değerleri alıp bu sudokunun çözümünü yapmak.
 3. Oluşturulan matrixin geçerli olup olmadığını test edelim.
 4. Çözümünü yapıp tekrar ekrana verelim.
 
-## Gereklilikler
+## Gereksinimler
 Bu programı çalıştırabilmek için **Pyqt5** paketine ihtiyacımız var. Bu pakete komut satırınıza
 <br/>
 ``pip install PyQt5`` yazarak sahip olabilirsiniz.
